@@ -7,6 +7,15 @@
 //  Released under the MIT license.
 //
 
+#import <Foundation/Foundation.h>
+
+//! Project version number for libextobjc.
+FOUNDATION_EXPORT double libextobjcVersionNumber;
+
+//! Project version string for libextobjc.
+FOUNDATION_EXPORT const unsigned char libextobjcVersionString[];
+
+
 #import "EXTADT.h"
 #import "EXTConcreteProtocol.h"
 #import "EXTKeyPathCoding.h"
